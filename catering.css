@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*FUENTES*/
+@font-face {
+  font-family: "Allura-Regular";
+  src: url(fonts/Allura-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Satisfy";
+  src: url(fonts/Satisfy-Regular.ttf);
+}
+
+html, body{
+  background-color: #F7FFEB;
+}
+
+header{
+  text-align: center;
+}
+
+header h1{
+  font-size: 60px;
+  margin-top: 25px;
+  font-family: "Allura-Regular";
+}
+
+img{
+    height: 500px;
+    width: 700px;
+    margin-top: 100px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+h4{
+    text-align: center;
+    font-size: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 100;
+    font-family: "Allura-Regular";
+  }
+
+  p{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 100;
+    font-family: "Satisfy";
+  }
+
+  footer{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Allura-Regular";
+    margin-bottom: 30px;
+  }
+
+  .photo{
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+  }
+
+@media only screen and (max-width: 450px){
+
+  img{
+    width: 350px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  h4, p{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    align-items: center;
+    font-size: 25px;
+  }
+
+  .photo{
+    width: 350px;
+  }
+}
